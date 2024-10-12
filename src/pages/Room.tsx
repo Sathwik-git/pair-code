@@ -13,7 +13,7 @@ const Room = () => {
 
   useEffect(() => {
     if (!roomId && !username) return;
-    const newSocket = io("http://localhost:3000");
+    const newSocket = io("https://pair-code-backend.onrender.com/");
     setSocket(newSocket);
 
     newSocket.on("connect", () => {
