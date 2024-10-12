@@ -43,7 +43,7 @@ function Video({username}: VideoProps) {
         showRoomDetailsButton: false,
         showAudioVideoSettingsButton: false,
         showScreenSharingButton: false,
-        layout: "Sidebar",
+        layout: "Grid",
       });
     };
 
