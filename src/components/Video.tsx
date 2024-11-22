@@ -18,8 +18,8 @@ function Video({username}: VideoProps) {
     }
 
     const mymeeting = async () => {
-      const appId = 416372800;
-      const serverSecret = "157236a8f6582218dbbf1b5a254c9cba";
+      const appId = 819242275;
+      const serverSecret = "6351bffe3bad770ed170768b4d6259fe";
       const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
         appId,
         serverSecret,
